@@ -45,7 +45,7 @@
 //             return this.number1 + this.number2;
 //         }
 //         nul: function () {
-//             return this.number1 * this.number2; 
+//             return this.number1 * this.number2;
 //         }
 //     }
 //     calculator.read();
@@ -54,21 +54,49 @@
 // }
 // exercise3();
 
-function exercise4() {
-    let ladder = {
-        step: 0,
-        up() {
-            this.step++;
-            return this;
-        },
-        down() {
-            this.step--;
-            return this;
-        },
-        showStep() {
-            alert(this.step);
-            return this;
-        }
-    }
-}
-exercise4();
+// function exercise4() {
+//     let ladder = {
+//         step: 0,
+//         up() {
+//             this.step++;
+//             return this;
+//         },
+//         down() {
+//             this.step--;
+//             return this;
+//         },
+//         showStep() {
+//             alert(this.step);
+//             return this;
+//         }
+//     }
+// }
+// exercise4();
+
+// function exercise5(str, maxLenght) {
+//     if (str.length > maxLenght) {
+//         str =  str.slice(0, maxLenght) + "...";
+//         console.log(str)
+//         return str;
+//     }
+// }
+// exercise5("Hello00000000000", 5);
+
+
+
+// function exercise6() {
+//     const numbers = [];
+//     while (true) {
+//         let input = prompt("Enter a number");
+//         let number = parseFloat(input);
+
+//         if (!isNaN(number)) {
+//             numbers.push(number);
+//         } else {
+//             break
+//         }
+//     }
+//     const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+//     console.log(sum);
+// }
+
